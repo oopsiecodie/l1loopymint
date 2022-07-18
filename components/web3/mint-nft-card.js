@@ -13,7 +13,7 @@ const MintNFTCard = ({title, description, action, canMint, showNumToMint, setNum
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           {title}
         </Typography>
-        <Image alt="sample NFT" src='/loopys.mp4' width={250} height={250}/>
+        <Image alt="sample NFT" src='/loopys.gif' width={250} height={250}/>
         {mintStatus ? <p>Success! Check your wallet in a few minutes.</p> : <p>{description}</p>}
       </CardContent>
       <CardActions>
