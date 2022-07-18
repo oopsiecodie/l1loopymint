@@ -116,7 +116,7 @@ export default function Connect() {
       handleLoginClick={handleLoginClick}
       handleClose={handleClose}
     />
-    {active && chainId !== 4 && <p>Please connect to Ethereum Mainnet </p>}
+    {active && chainId !== 1 && <p>Please connect to Ethereum Mainnet </p>}
     </ Box>
   )
 }
